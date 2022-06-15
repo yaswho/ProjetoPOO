@@ -1,11 +1,11 @@
-package inatel.br.cdg.FantasmaCozinheiro;
+package inatel.br.cdg.Inimigo;
 
 import inatel.br.cdg.Inimigo.Inimigo;
 
 public class FantasmaCozinheiro extends Inimigo {
 
 
-    public FantasmaCozinheiro(double vida, double ataque) {
+    public FantasmaCozinheiro(int vida, int ataque) {
         super(vida, ataque);
     }
 }

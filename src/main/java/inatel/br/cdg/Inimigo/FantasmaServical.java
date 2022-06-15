@@ -1,11 +1,11 @@
-package inatel.br.cdg.FantasmaServical;
+package inatel.br.cdg.Inimigo;
 
 import inatel.br.cdg.Inimigo.Inimigo;
 
 public class FantasmaServical extends Inimigo {
 
 
-    public FantasmaServical(double vida, double ataque) {
+    public FantasmaServical(int vida, int ataque) {
         super(vida, ataque);
     }
 }
