@@ -9,4 +9,6 @@ public abstract class Inimigo {
         this.vida = vida;
         this.ataque = ataque;
     }
+
+
 }
