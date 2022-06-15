@@ -1,0 +1,17 @@
+D1:Inicio, Você perdeu o jogo. deseja tentar novamente?
+
+Sim
+Não
+
+T2:A história inicia, é o fim da tarde de Sábado(Ou seria domingo? você que sabe). Você se encontra na frente de uma casa abandonada.
+
+D2:Como você se sente?
+
+Com medo
+Neutro
+Nada me afeta mais
+
+D3:Decisão:
+
+Deseja explorar a casa
+ou deseja explorar os arredores?
