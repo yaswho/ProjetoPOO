@@ -1,15 +1,20 @@
 package inatel.br.cdg.Decisao;
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Scanner;
 
 
 public class Escolha{
 
     private int escolha;
+    Scanner sc = new Scanner(System.in); // cria instancia de scanner
 
     public void Escolha(){ //Construtor de escolha
 
@@ -22,7 +27,7 @@ public class Escolha{
         }
     }
 
-    public int LerInteract(String referencia, int qtdescolhas){
+    public int LerInteract(int r0, int r1,int r2, int r3, int qtdescolhas) throws FileNotFoundException {
         //Referencia é a expressão para achar a linha que tem o texto
         //qtd escolhas é a quantidade de escolhas que vai estar disponivel
 

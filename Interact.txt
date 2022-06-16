@@ -1,7 +1,7 @@
-D1:Inicio, Você perdeu o jogo. deseja tentar novamente?
 
-Sim
-Não
+D1:Inicio, Você perdeu o jogo. deseja tentar novamente?
+1 - Sim
+2 - Não
 
 T2:A história inicia, é o fim da tarde de Sábado(Ou seria domingo? você que sabe). Você se encontra na frente de uma casa abandonada.
 
