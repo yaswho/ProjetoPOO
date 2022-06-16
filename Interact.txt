@@ -6,12 +6,18 @@ D1:Inicio, Você perdeu o jogo. deseja tentar novamente?
 T2:A história inicia, é o fim da tarde de Sábado(Ou seria domingo? você que sabe). Você se encontra na frente de uma casa abandonada.
 
 D2:Como você se sente?
-
-Com medo
-Neutro
-Nada me afeta mais
+1 - Com medo
+2 - Neutro
+3 - Nada me afeta mais
 
 D3:Decisão:
 
-Deseja explorar a casa
-ou deseja explorar os arredores?
+1 - Deseja explorar a casa
+2 - ou deseja explorar os arredores?
+
+
+
+//
+ordem não linear
+T12: Uma luz te tirou da escuridão e te trouxe de volta para o começo. Você não se lembra de nada.
+

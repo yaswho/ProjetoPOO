@@ -11,6 +11,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 
+
 public class Escolha{
 
     private int escolha;
@@ -33,45 +34,80 @@ public class Escolha{
 
         //Ler interact com referencia
 
+        Path arquivoInteract = Paths.get("Interact.txt"); //pega caminho de Interact.txt
+        Map<Integer, String> num = new HashMap<>();
+        int id = 1;
 
-        //Escolha da pessoa
-        Scanner in = new Scanner(System.in);
-        System.out.println("Digite a opção: ");
-        escolha = in.nextInt();
-
-        while (escolha < 1 | escolha > qtdescolhas) { //Para pessoa não colocar escolha inválida
-            System.out.println("Escolha inválida");
-            System.out.println("Digite a opção: ");
-            escolha = in.nextInt();
-        }
-        
-        if(qtdescolhas==2){
-            
-        }else if(qtdescolhas==3){
-            
-        }else{
-
+        Scanner scanInt = new Scanner(new File("Interact.txt")); //Lê Interact
+        while(scanInt.hasNextLine()){                                    //associa cada linha com uma chave
+            String line1 = scanInt.nextLine();
+            num.put(id,line1);
+            id ++;
         }
 
-        if(escolha ==1){
-            System.out.println("Você escolheu 1");
-            return 1;
+        System.out.println();
+        if (qtdescolhas>0) { //Se for uma tomada de decisão mostre escolhas possiveis
+            System.out.println(num.get(r0)); //formato
+            System.out.println();
+            System.out.println(num.get(r1));
+            System.out.println(num.get(r2));
+            System.out.println(num.get(r3));
+
+            System.out.println();
+            System.out.println("Digite o número da opção: ");
+            escolha = sc.nextInt();
+
+
+            while (escolha < 1 | escolha > qtdescolhas) { //Para pessoa não colocar escolha inválida
+                System.out.println("Escolha inválida");
+                System.out.println("Escreva a opção");
+                escolha = sc.nextInt();
+
+            }
+
+            if (qtdescolhas == 2) { //Se tiver 2 escolhas disponiveis apenas
+                if (escolha == 1) {
+                    System.out.println("Você escolheu 1");
+                    return 1;
+                } else {
+                    System.out.println("Você escolheu 2");
+                    return 2;
+                }
+
+            } else if (qtdescolhas == 3) { //Se tiver 3 escolhas disponiveis apenas
+                if (escolha == 1) {
+                    System.out.println("Você escolheu 1");
+                    return 1;
+                } else if (escolha == 2) {
+                    System.out.println("Você escolheu 2");
+                    return 2;
+                } else {
+                    System.out.println("Você escolheu 3");
+                    return 3;
+                }
+            } else {                  //Se tiver 4 escolhas disponiveis apenas
+                if (escolha == 1) {
+                    System.out.println("Você escolheu 1");
+                    return 1;
+                } else if (escolha == 2) {
+                    System.out.println("Você escolheu 2");
+                    return 2;
+                } else if (escolha == 3) {
+                    System.out.println("Você escolheu 3");
+                    return 3;
+                } else {
+                    System.out.println("Você escolheu 4");
+                    return 4;
+                }
+            }
         }
-        else if(escolha ==2){
-            return 2;
-        }
-        else if(escolha ==3){
-            return 3;
-        }
-        else{
-            return 4;
+        else{        //Se não for uma tomada de decisão mostre apenas o texto
+            System.out.println(num.get(r0));
+            return 10;
         }
 
     }
 
-//    Scanner in = new Scanner(System.in);
-//    System.out.println("Digite a opção");
-//    escolha = in.nextInt();
 }
 
 
