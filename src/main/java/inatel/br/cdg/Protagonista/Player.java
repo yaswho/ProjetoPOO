@@ -1,5 +1,6 @@
 package inatel.br.cdg.Protagonista;
 
+import inatel.br.cdg.Funcoes.Funcoes;
 import inatel.br.cdg.Inimigo.FantasmaCozinheiro;
 import inatel.br.cdg.Inimigo.FantasmaServical;
 import inatel.br.cdg.Inimigo.Inimigo;
