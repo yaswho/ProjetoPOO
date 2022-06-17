@@ -8,4 +8,6 @@ public class FantasmaServical extends Inimigo {
     public FantasmaServical(int vida, int ataque) {
         super(vida, ataque);
     }
+
+
 }

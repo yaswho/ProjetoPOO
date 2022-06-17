@@ -14,4 +14,12 @@ public class Funcoes {
 
         return value;
     }
+
+    public void temporizador(int tempo){
+        try {
+            Thread.sleep(tempo);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 }

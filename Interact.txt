@@ -1,10 +1,10 @@
 // ordem linear da parte 1
 
-D1:Inicio, Você perdeu o jogo. deseja tentar novamente?
+Inicio, Você perdeu o jogo. deseja tentar novamente?
 1 - Sim
 2 - Não
 
-T2:A história inicia, é o fim da tarde de Sábado(Ou seria domingo? você que sabe). Você se encontra na frente de uma casa abandonada.
+A história inicia, é o fim da tarde de Sábado(Ou seria domingo? você que sabe). Você se encontra na frente de uma casa abandonada.
 
 Como você se sente?
 1 - Com medo
@@ -104,4 +104,36 @@ A escada estava velha, e rangia, apesar disso você seguiu o conselho do fantasm
    No primeiro andar você encontra
     -1 banheiro,
     -2 quartos.
+
+Explorar qual sala?
+   1 - Banheiro
+   2 - Quartos
+   3 - Correr para o abraço
+
+//Escolheu Banheiro
+
+Explorando o banheiro você encontra um rato amarelo com bochechas vermelhas soltando raios pelo rabo, Você se pergunta se ele é um mamífero ou não.
+mamiferos fazem o que?
+É melhor deixar ele quieto.
+
+//Escolheu Quartos
+
+Explorando os quartos você aspirou um pouco de pó. (sua rinite atacou)
+É melhor eu sair daqui...
+
+//Escolheu Correr para o abraço
+
+Final 2
+O pacifista
+Você resolveu todos os problemas na base do dialogo, mas isso só mostra que sua esquisofrenia é séria afinal Fantasmas não existem de fato. Você vai embora, para nunca mais voltar
+
+
+//Venceu Cozinheiro
+
+Você venceu o cozinheiro e voltou correndo de medo para o térreo.
+Você está apavorado, foi uma luta e tanto
+Você resolve subir a escada.
+
+//Volta para linha 53
+
 

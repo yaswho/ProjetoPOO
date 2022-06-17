@@ -1,6 +1,9 @@
 package inatel.br.cdg.Main;
-
 import inatel.br.cdg.Decisao.Escolha;
+import inatel.br.cdg.Funcoes.Funcoes;
+import inatel.br.cdg.Inimigo.FantasmaCozinheiro;
+import inatel.br.cdg.Inimigo.FantasmaServical;
+import inatel.br.cdg.Protagonista.Player;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,6 +17,8 @@ public class Main {
 
         Path arquivoJogo = Paths.get("OJogo.txt"); //pega caminho de Ojogo.txt
         Escolha escolha = new Escolha();
+        Funcoes funcoes = new Funcoes();
+
         int auxiliar;
         int terminouparte1 = 0;
         int venceuservical = 0;
@@ -166,15 +171,13 @@ public class Main {
             }
 
         }
-
-        //auxiliar = 2 == não
-        if(auxiliar==2){
-
+        else if (auxiliar == 2){
+            escolha.LerInteract(28, 31, 31, 31, 0);
+            funcoes.temporizador(2000);
+            System.out.printf("Jogo encerrado, Careca!");
+            System.exit(1); //Fecha o jogo
         }
-
-
-
-
     }
 }
+
 
