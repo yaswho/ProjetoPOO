@@ -1,3 +1,4 @@
+// ordem linear da parte 1
 
 D1:Inicio, Você perdeu o jogo. deseja tentar novamente?
 1 - Sim
@@ -5,17 +6,19 @@ D1:Inicio, Você perdeu o jogo. deseja tentar novamente?
 
 T2:A história inicia, é o fim da tarde de Sábado(Ou seria domingo? você que sabe). Você se encontra na frente de uma casa abandonada.
 
-D2:Como você se sente?
+Como você se sente?
 1 - Com medo
 2 - Neutro
 3 - Nada me afeta mais
 
-D3:Decisão:
+Decisão:
 
-1 - Deseja explorar a casa
-2 - ou deseja explorar os arredores?
+1 - Deseja explorar a casa?
+2 - Ou deseja explorar os arredores?
 
-
+Você decide explorar a casa.
+Ao entrar na casa, nota que ela possui 2 andares contando com o térreo e está abandonada.
+Você se encontra na sala principal e sente um cheiro de mofo familiar, junto com um aroma doce de chá de canomila.
 
 //-------------------------- ordem não linear da parte 1
 
