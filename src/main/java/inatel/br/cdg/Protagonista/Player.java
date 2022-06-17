@@ -1,21 +1,24 @@
 package inatel.br.cdg.Protagonista;
 
 import inatel.br.cdg.Funcoes.Funcoes;
-import inatel.br.cdg.Inimigo.FantasmaCozinheiro;
-import inatel.br.cdg.Inimigo.FantasmaServical;
 import inatel.br.cdg.Inimigo.Inimigo;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.List;
+
 import java.util.Scanner;
 
 public class Player {
 
+    public Player(int vida, int dano) {// Construtor do player
+        this.Vida = vida;
+        this.Dano = dano;
+    }
+
     //0 - 100
     private int Vida;
-    private int Defesa;
+
+    public void AcrescentaDano(int dano) {
+        this.Dano += dano;
+    }
+
     private int Dano;
     private int escolha;
 
@@ -24,21 +27,25 @@ public class Player {
     }
 
 
-    Funcoes Funcao = new Funcoes();
+    Funcoes funcoes = new Funcoes();
+
+    public void mostrainfo(Inimigo fantasma) {
+        System.out.println("Sua vida é: " + Vida);
+        System.out.println("Vida do fantasma é: " + fantasma.getVida());
+    }
 
 
     FantasmaServical f1 = new  FantasmaServical(200, 5);
 
-    public int Luta1(Inimigo fantasma) {
+    public void Luta(Inimigo fantasma) {
 
-        //Chama função de opções -> Ataque(10% para errar), Defesa(50% para não defender), Fugir(5%), Atacar e Defender(20%)
-        System.out.println("O que deseja fazer?");
-        System.out.printf("Digite: %n 1- Atacar %n 2- Defender %n 3- Fugir %n 4- Atacar e Defender %n");
+        while (fantasma.getVida() > 0 && Vida > 0) { //A luta continua enquanto nenhuma vida chegar a zero
+            //Chama função de opções -> Ataque(10% para errar), Defesa(50% para não defender), Fugir(5%), Atacar e Defender(20%)
+            System.out.println("O que deseja fazer?");
+            System.out.printf("Digite: %n 1- Atacar %n 2- Defender %n 3- Fugir %n 4- Atacar e Defender %n");
+            System.out.println(); //pula linha
 
-
-        Scanner in = new Scanner(System.in);
-
-        while(fantasma.getVida()>0 || Vida>0){ //A luta continua enquanto nenhuma vida chegar a zero
+            Scanner in = new Scanner(System.in);
 
             System.out.println("Digite a opção: ");
             escolha = in.nextInt();
@@ -120,7 +127,8 @@ public class Player {
             }
         }
 
-        if(Vida< 0){ //Se o jogador perdeu muda corromper para 1 no arquivo Ojogo.txt
+
+        if (Vida < 0) { //Se o jogador perdeu muda corromper para 1 no arquivo Ojogo.txt
             //Código antes
             System.out.println("ERRO");
             for(int i = 0; i<10; i++){
@@ -131,14 +139,10 @@ public class Player {
                 }
                 System.out.println("ERRO......");
             }
-            System.out.println("ERROERROERROERROERROERROERROERROERROERROERROERROERRO %n");
-            System.out.println("Isto não era para ter acontecido %n");
-            System.out.println("ou será? %n");
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+            System.out.println("ERROERROERROERROERROERROERROERROERROERROERROERROERRO");
+            System.out.println("Isto não era para ter acontecido ");
+            System.out.println("ou era? ");
+            funcoes.temporizador(1000);
 
             System.exit(1); //Fecha o jogo
         }
@@ -146,7 +150,6 @@ public class Player {
             return 1;
         }
 
-        return 666; //return geral
     }
 
 

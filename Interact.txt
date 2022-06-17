@@ -17,7 +17,88 @@ D3:Decisão:
 
 
 
-//
-ordem não linear
-T12: Uma luz te tirou da escuridão e te trouxe de volta para o começo. Você não se lembra de nada.
+//-------------------------- ordem não linear da parte 1
+
+Uma luz te tirou da escuridão e te trouxe de volta para o começo. Você não se lembra de nada.
+
+"Patético..."
+"Delay de 10 segundos"
+"Jogo crasha"
+
+Passaram 3 minutos e você sentiu ansiedade.
+
+Decisão:
+1 - Deseja explorar a casa?
+2 - Ou não deseja fazer nada?
+
+Você olhou para os lados e viu uma figura oculta te observando a distância. Você encontrou um graveto que era a varinha do Rerry Potta
+Seu dano aumentou em +3.
+
+//-------------------------- parte 2 - Inicio
+
+explorar qual andar?
+1 - Térreo
+2 - 1º andar
+
+
+//-------------------------- parte 2 - Leva ao final Caçador de fantasmas
+//escolheu o 1º andar
+
+A escada estava velha, fez bastante barulho enquanto você andava.
+
+Você escuta uma voz vindo furiosa em sua direção:
+- EU JÁ FALEI PARA FAZER SILENCIO!
+Para sua surpresa é um espírito de serviçal, que começa a te agredir.
+
+//venceu a primeira luta           //se perder o jogo crasha
+
+Você venceu o serviçal e voltou correndo de medo para o térreo.
+Você está apavorado, foi uma luta e tanto.
+
+Andando pelo térreo um fantasma cozinheiro bravissimo vem te agredir
+- VOCÊ MATOU MEU AMIGO, diz ele.
+
+//venceu a segunda luta            //se perder o jogo crasha
+
+Você venceu o cozinheiro e voltou novamente para o térreo.
+
+Final 1
+O caçador de fantasmas
+Todos fantasmas foram extintos. Você recobra a lucidez e percebe que não há mais nada naquela casa. Você vai embora, para nunca mais voltar.
+
+//escolheu o térreo
+
+No andar térreo você encontra uma cozinha e uma sala de jantar.
+
+Decisão:
+Explorar qual sala?
+1 - Cozinha
+2 - Sala de jantar
+
+A sala de jantar estava empoeirada, mas apesar disso você viu uma foto que chamou sua atenção.Era de uma índia de um metro e meio.
+Na descrição dizia: Não importa o que digam, eu sempre escuto besteira.
+(Vou fingir que entendi isso).
+
+Explorando a cozinha uma voz te surpreende: PARADO! QUER UM POUCO DE CHÁ?
+É um fantasma cozinheiro, que apesar de te deixar apavorado te trata cordialmente e com sarcasmo.
+
+Desisão:
+Escolha o que quer falar:
+1 - Aceito o chá
+2 - Que susto seu babaca!
+
+//chamou cozinheiro de babaca
+
+O Cozinheiro pega a faca e diz: VAMOS VER QUEM QUE É O BABACA AQUI AGORA!
+//retoma a linha 65
+
+//-------------------------- parte 2 - Leva ao final pacifista
+
+O fantasma contou sobre a vida dele você fingiu que escutava enquanto apreciava o chá.
+Algo importante foi o fato de que ele disse que precisa fazer silencio ao subir no 1 andar. Risco de vida eliminado.
+
+A escada estava velha, e rangia, apesar disso você seguiu o conselho do fantasma cozinheiro e tentou subir fazendo o máximo de silencio possível.
+   No primeiro andar você encontra
+    -1 banheiro,
+    -2 quartos.
 

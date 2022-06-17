@@ -28,22 +28,26 @@ public class Escolha{
         }
     }
 
-    public int LerInteract(int r0, int r1,int r2, int r3, int qtdescolhas) throws FileNotFoundException {
+    public int LerInteract(int r0, int r1,int r2, int r3, int qtdescolhas) {
         //Referencia é a expressão para achar a linha que tem o texto
         //qtd escolhas é a quantidade de escolhas que vai estar disponivel
 
-        //Ler interact com referencia
 
         Path arquivoInteract = Paths.get("Interact.txt"); //pega caminho de Interact.txt
         Map<Integer, String> num = new HashMap<>();
         int id = 1;
 
+        try{ //Trata possivel erro (Se interact.txt não existir)
         Scanner scanInt = new Scanner(new File("Interact.txt")); //Lê Interact
-        while(scanInt.hasNextLine()){                                    //associa cada linha com uma chave
-            String line1 = scanInt.nextLine();
-            num.put(id,line1);
-            id ++;
+            while(scanInt.hasNextLine()){                                    //associa cada linha com uma chave
+                String line1 = scanInt.nextLine();
+                num.put(id,line1);
+                id ++;
+            }
+        }catch (FileNotFoundException e){
+        e.printStackTrace();
         }
+
 
         System.out.println();
         if (qtdescolhas>0) { //Se for uma tomada de decisão mostre escolhas possiveis
@@ -103,7 +107,11 @@ public class Escolha{
         }
         else{        //Se não for uma tomada de decisão mostre apenas o texto
             System.out.println(num.get(r0));
-            return 10;
+            System.out.println(num.get(r1));
+            System.out.println(num.get(r2));
+            System.out.println(num.get(r3));
+
+            return 5;
         }
 
     }

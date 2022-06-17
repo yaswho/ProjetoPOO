@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="90da08a1-045b-4bb6-805c-7588043064d1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interact.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Interact.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inatel/br/cdg/Decisao/Escolha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inatel/br/cdg/Decisao/Escolha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inatel/br/cdg/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inatel/br/cdg/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inatel/br/cdg/Protagonista/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inatel/br/cdg/Protagonista/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inatel/br/cdg/Decisao/Escolha.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inatel/br/cdg/Decisao/Escolha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inatel/br/cdg/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inatel/br/cdg/Main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inatel/br/cdg/Protagonista/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inatel/br/cdg/Protagonista/Player.class" afterDir="false" />
+    </list>
+    <list id="ae3a221e-7203-441b-8076-fbdfd408b170" name="Changes by joaoc" comment="">
+      <change beforePath="$PROJECT_DIR$/Interact.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Interact.txt" afterDir="false" />
+    </list>
+    <list id="575c315e-f1ec-42e5-976a-98b5761f56de" name="Changes by Mizael" comment="">
+      <change beforePath="$PROJECT_DIR$/Interact.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Interact.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inatel/br/cdg/Decisao/Escolha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inatel/br/cdg/Decisao/Escolha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inatel/br/cdg/Funcoes/Funcoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inatel/br/cdg/Funcoes/Funcoes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inatel/br/cdg/Inimigo/FantasmaServical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inatel/br/cdg/Inimigo/FantasmaServical.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inatel/br/cdg/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inatel/br/cdg/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inatel/br/cdg/Protagonista/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inatel/br/cdg/Protagonista/Player.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/main/java/inatel/br/cdg/Main/Main.java">
+      <ranges>
+        <range start1="1" end1="2" start2="1" end2="1" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="3" end1="3" start2="2" end2="6" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="12" end1="13" start2="15" end2="16" changelist="90da08a1-045b-4bb6-805c-7588043064d1" />
+        <range start1="16" end1="16" start2="19" end2="21" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="17" end1="17" start2="22" end2="26" changelist="90da08a1-045b-4bb6-805c-7588043064d1" />
+        <range start1="18" end1="23" start2="27" end2="54" changelist="90da08a1-045b-4bb6-805c-7588043064d1" />
+        <range start1="24" end1="25" start2="55" end2="62" changelist="90da08a1-045b-4bb6-805c-7588043064d1" />
+        <range start1="26" end1="29" start2="63" end2="171" changelist="90da08a1-045b-4bb6-805c-7588043064d1" />
+        <range start1="31" end1="35" start2="173" end2="178" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="36" end1="40" start2="179" end2="179" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="42" end1="42" start2="181" end2="182" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/java/inatel/br/cdg/Decisao/Escolha.java">
+      <ranges>
+        <range start1="12" end1="13" start2="12" end2="12" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="30" end1="31" start2="29" end2="30" changelist="90da08a1-045b-4bb6-805c-7588043064d1" />
+        <range start1="34" end1="35" start2="33" end2="33" changelist="90da08a1-045b-4bb6-805c-7588043064d1" />
+        <range start1="40" end1="40" start2="38" end2="39" changelist="90da08a1-045b-4bb6-805c-7588043064d1" />
+        <range start1="41" end1="46" start2="40" end2="49" changelist="90da08a1-045b-4bb6-805c-7588043064d1" />
+        <range start1="105" end1="106" start2="108" end2="113" changelist="90da08a1-045b-4bb6-805c-7588043064d1" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/java/inatel/br/cdg/Protagonista/Player.java">
+      <ranges>
+        <range start1="3" end1="5" start2="3" end2="3" changelist="90da08a1-045b-4bb6-805c-7588043064d1" />
+        <range start1="6" end1="11" start2="4" end2="5" changelist="90da08a1-045b-4bb6-805c-7588043064d1" />
+        <range start1="14" end1="14" start2="8" end2="13" changelist="90da08a1-045b-4bb6-805c-7588043064d1" />
+        <range start1="17" end1="18" start2="16" end2="21" changelist="90da08a1-045b-4bb6-805c-7588043064d1" />
+        <range start1="26" end1="27" start2="29" end2="35" changelist="90da08a1-045b-4bb6-805c-7588043064d1" />
+        <range start1="28" end1="30" start2="36" end2="36" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="31" end1="32" start2="37" end2="38" changelist="90da08a1-045b-4bb6-805c-7588043064d1" />
+        <range start1="33" end1="37" start2="39" end2="44" changelist="90da08a1-045b-4bb6-805c-7588043064d1" />
+        <range start1="38" end1="39" start2="45" end2="46" changelist="90da08a1-045b-4bb6-805c-7588043064d1" />
+        <range start1="40" end1="42" start2="47" end2="47" changelist="90da08a1-045b-4bb6-805c-7588043064d1" />
+        <range start1="45" end1="49" start2="50" end2="54" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="51" end1="53" start2="56" end2="58" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="54" end1="55" start2="59" end2="59" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="56" end1="57" start2="60" end2="61" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="58" end1="59" start2="62" end2="63" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="64" end1="65" start2="68" end2="69" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="66" end1="67" start2="70" end2="71" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="74" end1="75" start2="78" end2="79" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="79" end1="83" start2="83" end2="87" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="89" end1="91" start2="93" end2="95" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="94" end1="98" start2="98" end2="102" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="100" end1="101" start2="104" end2="104" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="107" end1="109" start2="110" end2="112" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="113" end1="117" start2="116" end2="120" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="120" end1="120" start2="123" end2="126" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="121" end1="121" start2="127" end2="128" changelist="90da08a1-045b-4bb6-805c-7588043064d1" />
+        <range start1="122" end1="123" start2="129" end2="130" changelist="90da08a1-045b-4bb6-805c-7588043064d1" />
+        <range start1="125" end1="131" start2="132" end2="134" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="133" end1="141" start2="136" end2="140" changelist="90da08a1-045b-4bb6-805c-7588043064d1" />
+        <range start1="144" end1="146" start2="143" end2="147" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="148" end1="149" start2="149" end2="149" changelist="90da08a1-045b-4bb6-805c-7588043064d1" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/Interact.txt">
+      <ranges>
+        <range start1="0" end1="0" start2="0" end2="1" changelist="ae3a221e-7203-441b-8076-fbdfd408b170" />
+        <range start1="1" end1="2" start2="2" end2="3" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="5" end1="6" start2="6" end2="7" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+        <range start1="7" end1="8" start2="8" end2="9" changelist="ae3a221e-7203-441b-8076-fbdfd408b170" />
+        <range start1="12" end1="13" start2="13" end2="14" changelist="ae3a221e-7203-441b-8076-fbdfd408b170" />
+        <range start1="14" end1="16" start2="15" end2="17" changelist="ae3a221e-7203-441b-8076-fbdfd408b170" />
+        <range start1="17" end1="18" start2="18" end2="21" changelist="ae3a221e-7203-441b-8076-fbdfd408b170" />
+        <range start1="19" end1="22" start2="22" end2="106" changelist="90da08a1-045b-4bb6-805c-7588043064d1" />
+        <range start1="23" end1="23" start2="107" end2="139" changelist="575c315e-f1ec-42e5-976a-98b5761f56de" />
+      </ranges>
+    </file>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Afbjm7RFZw81Ve9IJd2CX8Uiz9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Henri/IdeaProjects/Projeto_C125&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inatel.br.cdg.Main.Main" />
+      <module name="Projeto_C125" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inatel.br.cdg.Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90da08a1-045b-4bb6-805c-7588043064d1" name="Changes" comment="" />
+      <created>1655403724275</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655403724275</updated>
+      <workItem from="1655403725752" duration="6669000" />
+      <workItem from="1655432584255" duration="7445000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
