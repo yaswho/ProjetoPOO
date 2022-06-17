@@ -1,5 +1,1 @@
-                      Instruções:
-Este jogo está programado para ser misterioso e divertido.
-Espere ter que reiniciar o jogo várias vezes.
-Certas decisões também fazem o jogo se corromper, mas nada é permanente.
-Simplesmente acesse o Ojogo.txt e restaure o arquivo
+

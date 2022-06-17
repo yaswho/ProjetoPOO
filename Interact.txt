@@ -24,6 +24,7 @@ Você se encontra na sala principal e sente um cheiro de mofo familiar, junto co
 
 Uma luz te tirou da escuridão e te trouxe de volta para o começo. Você não se lembra de nada.
 
+
 "Patético..."
 "Delay de 10 segundos"
 "Jogo crasha"
@@ -39,7 +40,7 @@ Seu dano aumentou em +3.
 
 //-------------------------- parte 2 - Inicio
 
-explorar qual andar?
+Explorar qual andar?
 1 - Térreo
 2 - 1º andar
 
@@ -137,3 +138,6 @@ Você resolve subir a escada.
 //Volta para linha 53
 
 
+      Instruções:
+Este jogo está programado para ser misterioso e divertido.
+Espere ter que reiniciar o jogo várias vezes.

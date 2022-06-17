@@ -26,15 +26,7 @@ public class Main {
         Player player = null; //Cria instancia nula só para o programa deixar usar ela
 
         //Instruções iniciais
-        try { //Trata possivel erro (Se instruções.txt não existir)
-            Scanner scan = new Scanner(new File("Instrucoes.txt")); //Lê instruções
-            while (scan.hasNextLine()) {
-                String line = scan.nextLine();
-                System.out.println(line);
-            }
-        }catch (IOException e){
-            System.out.println(e);
-        }
+        escolha.LerInteract(141,142,143,139,0);
         auxiliar = escolha.LerInteract(2, 3, 4, 5, 2); // texto inicial, escolha 1, escolha 2 , escolha 3, quantidade de escolhas
 
         if (auxiliar == 1) {
@@ -58,9 +50,9 @@ public class Main {
                 if (auxiliar == 2) {
                     escolha.LerInteract(37, 38, 39, 40, 0);
                     player.AcrescentaDano(3); //acrescenta + 3 de dano ao dano do jogador
-                } else
+                } else {
                     System.out.println("Invalido");
-
+                }
                 //Explorar a casa?
                 auxiliar = escolha.LerInteract(34, 35, 36, 37, 2);
 
