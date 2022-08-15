@@ -5,7 +5,7 @@ Ele é um jogo de texto que envolve: packages, classes abstratas, tratamento de 
 Para executar esse projeto execute a main dele.
 
 Os criadores são:
--Yasmin S
+-Yasmim S
 -Henrique F
 -Mizael S
 -João C
